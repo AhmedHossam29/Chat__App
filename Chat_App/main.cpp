@@ -1,10 +1,10 @@
-#include "Chat_App.h"
 #include <QtWidgets/QApplication>
+#include <iostream>
+using namespace std;
 
-int main(int argc, char *argv[])
-{
-    QApplication a(argc, argv);
-    Chat_App w;
-    w.show();
-    return a.exec();
+int main(int argc, char *argv[]) {
+  QApplication a(argc, argv);
+
+  cout << "yaaarb";
+  return a.exec();
 }
