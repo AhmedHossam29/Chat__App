@@ -3,24 +3,6 @@
 #include<vector>
 using namespace std;
 
-class Group : public Receiver {
-private:
-    string groupName;
-public:
-    Group(string groupName) {
-        this->groupName = groupName;
-    }
-
-    void display() override {
-        cout << groupName << endl;
-    }
-
-    string getGroupName(){
-        return groupName;
-    }
-};
-
-
 class Message {
 private:
     string content;
